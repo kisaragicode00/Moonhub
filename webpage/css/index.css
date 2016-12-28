@@ -1,0 +1,151 @@
+.banner{
+    position:relative;
+    height:460px;
+}
+.banner:hover i{
+    opacity:.5;
+}
+.banner a{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-position:center;
+    background-size:100% 100%;
+}
+.banner .current{
+    z-index:1;
+}
+.banner i{
+    position:absolute;
+    top:208px;
+    width:25px;
+    height:44px;
+    z-index:1;
+    opacity:0;
+    transition:opacity .5s;
+}
+.banner i:hover{
+    opacity:1;
+}
+.banner .previous{
+    left:66px;
+    background-position:0 -37px;
+}
+.banner .next{
+    right:66px;
+    background-position:-26px -37px;
+}
+.nav{
+    position: relative;
+    height: 99px;
+    background: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.nav .nav-lft{
+    width: 442px;
+    float: left;
+    height: 100px;
+    border-right: 1px solid #eee;
+    position: relative;
+}
+.nav .nav-mid{
+    width: 442px;
+    float: left;
+    height: 100px;
+    border-right: 1px solid #eee;
+    position: relative;
+}
+.nav .nav-rgt{
+    width: 290px;
+    float: left;
+    height: 100px;
+}
+.nav .icon2{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 9px;
+    height: 5px;
+    background-position: 0px -130px;
+    cursor: pointer;
+}
+.nav .pp{
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 24px;
+    line-height: 40px;
+}
+.nav .item{
+    height: 60px;
+    padding-left: 24px;
+}
+.nav .nav-lft .item a{
+    float: left;
+    width: 48px;
+    overflow: hidden;
+}
+.nav .nav-mid .item a{
+    float: left;
+    width: 56px;
+    overflow: hidden;
+}
+.nav .item a:hover,.nav .item span:hover{
+    color: #ff571a;
+}
+.nav .nav-lft .item a img{
+    width: 32px;
+    height: 24px;
+    display: block;
+    margin: 0 auto;
+}
+.nav .nav-mid .item a .car-img{
+    width: 50px;
+    height: 20px;
+    background: url(../images/car_modal_sprite.png) no-repeat 6px 4px;
+    display: block;
+    margin: 0 auto 5px;
+}
+.nav .nav-mid .item a .m2{
+    background-position: -45px 4px;
+}
+.nav .nav-mid .item a .m3{
+    background-position: -44px -16px;
+}
+.nav .nav-mid .item a .m4{
+    background-position: -94px 4px;
+}
+.nav .nav-mid .item a .m5{
+    background-position: -98px -16px;
+}
+.nav .nav-mid .item a .m6{
+    background-position: -45px 4px;
+}
+.nav .nav-mid .item a .m7{
+    background-position: 6px -36px;
+}   
+.nav .item span{
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+    color: #666;
+}
+.nav .item .price{
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    word-break: break-all;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    width: 52px;
+    color: #666;
+    font-size: 12px;
+}
+.car-area{
+    background: #f2f2f2;
+    height: 1900px;
+}
+.app-area{
+    margin-bottom: 80px;
+}
