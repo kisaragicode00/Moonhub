@@ -1,0 +1,31 @@
+body{
+	color: #797979;
+    font-family: Microsoft Yahei;
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 13px;
+}
+ul{
+	list-style: none;
+}
+input{
+	outline: none;
+}
+a, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+a {
+    color: inherit;
+}
+a:hover {
+    color: #8466b0;
+}
+::selection {
+    background: #9086b8;
+    color: #fff;
+h1,h2,h3,h4,h5,h6 {
+    font-family: Microsoft Yahei;
+}
+p {line-height: 22px}
+
